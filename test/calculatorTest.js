@@ -19,9 +19,14 @@ let calculator = require("../app/calculator");
             let result = calculator.score("Sammy");
             expect(result).to.contain("wahou");
         });
-        it("François should return 25/20", function () {
-            let result = calculator.score("François");
+        it("Jérémy should return 25/20", function () {
+            let result = calculator.score("Jérémy");
             expect(result).to.contain("25/20");
+        });
+
+        it("if name not setted it should ask for your name", function () {
+            let result = calculator.score("");
+            expect(result).to.contain("Veuillez entrez votre nom");
         });
     });
 
