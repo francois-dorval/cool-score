@@ -1,0 +1,16 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="Coolitude scores" tests="2" errors="0" failures="0" skipped="0" timestamp="2021-02-16T13:04:57" time="0.003">
+    <testcase classname="Coolitude scores" name="d should return 0" time="0">
+    </testcase>
+    <testcase classname="Coolitude scores" name="Sammy should return 19" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Full text result verification" tests="3" errors="0" failures="0" skipped="0" timestamp="2021-02-16T13:04:57" time="0.002">
+    <testcase classname="Full text result verification" name="Sammy should return wahou or something" time="0">
+    </testcase>
+    <testcase classname="Full text result verification" name="Jérémy should return 25/20" time="0.001">
+    </testcase>
+    <testcase classname="Full text result verification" name="if name not setted it should ask for your name" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
