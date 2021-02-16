@@ -6,7 +6,7 @@
 exports.score = function (name) {
 
 
-    if (name === "François"){
+    if (name === "Evan"){
         return "25/20 -> LA CLASSE"
     }
 
