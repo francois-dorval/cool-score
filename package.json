@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha test --reporter spec",
     "start": "node app/server.js"
-    "test-jenkins" "JUNIT_REPORT_PATH=report.xml  mocha test --reporter mocha-jenkins-reporter"
+    "test-jenkins": "JUNIT_REPORT_PATH=report.xml  mocha test --reporter mocha-jenkins-reporter"
 
 
   },
