@@ -20,3 +20,4 @@
     "mocha-jenkins-reporter": "^0.4.5",
     "mocha-xunit-reporter": "^2.3.0"
   }
+}
