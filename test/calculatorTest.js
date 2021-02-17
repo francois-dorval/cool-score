@@ -19,7 +19,7 @@ let calculator = require("../app/calculator");
             let result = calculator.score("Sammy");
             expect(result).to.contain("wahou");
         });
-        it("François should return 25/20", function () {
+        it("test should return 25/20", function () {
             let result = calculator.score("François");
             expect(result).to.contain("25/20");
         });
