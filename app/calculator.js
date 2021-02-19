@@ -6,8 +6,11 @@
 exports.score = function (name) {
 
 
-    if (name === "François"){
+    if (name === "Test"){
         return "25/20 -> LA CLASSE"
+    }
+    if (name === ""){
+        return "Merci de rentrer votre prenom!"
     }
 
     let score = exports.stringToIntHash(name);
