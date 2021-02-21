@@ -5,6 +5,10 @@
  */
 exports.score = function (name) {
 
+    if (name == null || name ===""){
+        return "Entrer votre nom s'il vous plait."
+    }
+
 
     if (name === "François"){
         return "25/20 -> LA CLASSE"

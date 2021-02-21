@@ -23,6 +23,14 @@ let calculator = require("../app/calculator");
             let result = calculator.score("François");
             expect(result).to.contain("25/20");
         });
+        it("if name emptie it should ask your name", function () {
+            let result = calculator.score("");
+            expect(result).to.contain("Entrer votre nom s'il vous plait.");
+        })
+        it("if name absent it should ask your name", function () {
+            let result = calculator.score(null);
+            expect(result).to.contain("Entrer votre nom s'il vous plait.");
+        })
     });
 
 
