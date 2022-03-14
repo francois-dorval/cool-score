@@ -30,3 +30,15 @@ app.get("/", function (req, res) {
 
 console.log("serveur lancé ici -> http://127.0.0.1:3000/score?name=test")
 app.listen(3000);
+
+
+
+
+
+
+pouet
+
+
+
+
+
